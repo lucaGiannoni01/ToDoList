@@ -1,0 +1,156 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    color: #212121;
+}
+
+p{
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: #212121;
+}
+
+header{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+    color: #212121;
+    font-weight: 600;
+}
+
+.titolo{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+}
+
+.logo{
+    height: 40px;
+    width: auto;
+}
+
+.calendario{
+    margin-top: 15px;
+    background-color: #868686ff;
+    border-radius: 12px;
+}
+
+.mese{
+    padding: 10px;
+    margin-bottom: 1px;
+    background-color: #e8e8e8;
+    border-radius: 12px 12px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.mese p{
+    margin: 0;
+    min-width: 120px;
+    padding: 0px 20px 0px 20px;
+    color: #212121;
+}
+
+.giorno{
+    padding: 10px;
+    background-color: #e8e8e8;
+    border-radius: 0px 0px 12px 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.giorno p{
+    margin: 0;
+    min-width: 120px;
+    padding: 0px 20px 0px 20px;
+    color: #212121;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    padding: 0px 15px 0px 15px;
+}
+
+.optionBar{
+    text-align: center;
+    color: #f7b529;
+    margin-bottom: 15px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
+.optionBar p{
+    margin: 0;
+    cursor: pointer;
+}
+
+.card{
+    background-color: #fbe8c4;
+    margin: 0px 0px 10px 0px;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.headerCard{
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+}
+
+.headerCard img{
+    z-index: 600;
+    background-color: #f7b629;
+    border-radius: 8px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.card h2,p{
+    margin: 0;
+}
+
+.menuList{
+    position: absolute;
+    background-color: #f7b629;
+    right: 44px;
+    height: 24px;
+    border-radius: 8px;
+    width: 0;
+    overflow: hidden;
+}
+
+.aperto{
+    width: auto;
+    padding: 2px 32px 2px 4px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.menuList ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    height: 24px;
+    padding: 0;
+}
+
+.menuList li{
+    height: 24px;
+}
+
+.menuList img{
+    height: 24px;
+    padding: 0;
+}
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="it">
+    <head>
+        <title>ToDoList</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="/images/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+                <h1 class="titolo">
+                <img src="/images/logo.png" alt="Logo app" class="logo">
+                <a href="index.html">ToDoList</a>
+                </h1>
+            
+            <div class="calendario">
+                <div class="mese">
+                    <img alt="freccia sx" src="/images/chevron_left.svg" id="mesePrecedente">
+                    <p id="mese"></p>
+                    <img alt="freccia dx" src="/images/chevron_right.svg" id="meseSuccessivo">
+                </div>
+                <div class="giorno">
+                    <img alt="freccia sx" src="/images/chevron_left.svg" id="giornoPrecedente">
+                    <p id="giorno"></p>
+                    <img alt="freccia dx" src="/images/chevron_right.svg" id="giornoSuccessivo">
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="optionBar">
+                <p id="aggiungiNota">+ Aggiungi nota</p>
+            </div>
+
+            <div id="containerCard"></div>
+
+
+
+        </main>
+
+        <footer>
+
+        </footer>
+
+        <script src="app.js"></script>
+    </body>
+
+</html>
